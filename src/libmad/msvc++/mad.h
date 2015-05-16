@@ -24,7 +24,11 @@
 extern "C" {
 # endif
 
-# define FPM_INTEL
+#ifdef _WIN64
+ # define FPM_64BIT
+#else
+ # define FPM_INTEL
+#endif
 
 
 
