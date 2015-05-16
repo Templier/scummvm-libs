@@ -1,0 +1,52 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.opensdf
+obj/
+_ReSharper*/
+ipch/
+[Tt]est[Rr]esult*
+*.vcproj
+*.sln
+*.vsprops
+*.props
+*.vcxproj*
+*.bat
+*.tss
+*.tlog
+
+#Ignore default Visual Studio build folders
+[Dd]ebug/
+[Rr]elease/
+[Rr]elease Library/
+[Dd]ebug32/
+[Rr]elease32/
+[Dd]ebug64/
+[Rr]elease64/
+LLVM32/
+LLVM64/
+
+#Ignore Mac DS_Store files
+.DS_Store
+
+# Ignore CMake build folders
+build/
+build64/
