@@ -1,0 +1,14 @@
+--- mad.h	Tue Nov 03 18:29:06 2009
++++ mad.h	Tue Nov 03 18:29:14 2009
+@@ -24,7 +24,11 @@
+ extern "C" {
+ # endif
+ 
++#ifdef _WIN64
++# define FPM_64BIT
++#else
+ # define FPM_INTEL
++#endif
+ 
+ 
+ 
