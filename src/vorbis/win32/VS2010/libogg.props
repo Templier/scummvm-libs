@@ -11,7 +11,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\libogg-$(LIBOGG_VERSION)\include;..\..\..\..\ogg\include;..\..\..\..\..\..\..\core\ogg\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>..\..\..\..\libogg-$(LIBOGG_VERSION)\win32\VS2010\$(PlatformName)\$(ConfigurationName);..\..\..\..\ogg\win32\VS2010\$(PlatformName)\$(ConfigurationName);..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\$(PlatformName)\$(ConfigurationName)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\libogg-$(LIBOGG_VERSION)\win32\VS2010\$(PlatformName)\$(ConfigurationName);..\..\..\..\ogg\win32\VS2013\$(PlatformName)\$(ConfigurationName);..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\$(PlatformName)\$(ConfigurationName)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
